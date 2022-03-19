@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Pokedex LaunchX</title>
+    
+</head>
+<body>
+    <br>
+    <div id="pokedex">
+        <div class="posicionGeneral">
+            <h1>Pokedex LaunchX</h1>
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokename">
+            <button onclick="fetchPokemon()">Cambiar pokemon</button>
+        </div>
+        <div class="pokedex">
+            <div>
+                <img src="./img/marco.jpg" alt="marco pokedex">
+            </div>
+            <div class="imgPokemon">
+                <img src="./img/pokeball-icon.jpg" id="pokeImg" name="pokeImg" alt="poke bola" width="150px">
+                <h3 id="name" name="name"></h3>
+                <h3 id="tipo" name="tipo"></h3>
+            </div>
+            <div class="tablaEst">
+                <table  id="tableStats">
+                </table>
+                <table id="tableMoves">
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/codigo.js"></script>
+</body>
+</html>
